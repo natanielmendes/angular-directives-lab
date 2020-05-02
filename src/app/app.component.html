@@ -27,7 +27,7 @@
       </ul>
       <p appBasicHighlight>Styled using the Basic Highlight directive</p>
       <p appBetterHighlight>Styled using Better Highlight directive</p>
-      <p appHostBindingHighlight>Styled using Host Binding Highlight directive</p>
+      <p [appHostBindingHighlight]="'red'" defaultColor="yellow" [textContent]="'Styled using Host Binding Highlight directive'"></p>
     </div>
   </div>
 </div>
